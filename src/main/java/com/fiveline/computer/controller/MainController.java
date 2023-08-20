@@ -15,8 +15,8 @@ public class MainController {
 //	@Setter(onMethod_=@Autowired)
 //	MainService mservice;
 	
-	@GetMapping("/main")
+	@GetMapping({"/main","/main/"}) //url 슬러쉬가 붙어도 메인페이지로 올수있게함
 		public String main() {
-			return "/page/main";
+			return "/page/main1";
 	}
 }

@@ -44,4 +44,5 @@ public class USerServiceImpl implements UserService{
 		umapper.userDelete(user_id);
 	}
 
+
 }

@@ -1,7 +1,5 @@
 package com.fiveline.computer.vo;
 
-import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,6 +19,5 @@ public class UserVO {
     private String user_birth;
     private String user_phone;
     private String user_address;
-
 
 }
