@@ -16,12 +16,19 @@
 </head>
 <body>
 
+<style>
+    .btn-purple {
+        background-color: #4b0082; /* 보라색 코드로 변경 */
+        color: #fff; /* 버튼 텍스트 색상을 흰색으로 설정 */
+        /* 필요한 다른 스타일도 추가 가능 */
+    }
+</style>
 
 	<div class="container">
 		<h2>로그인</h2>
 		<p>아이디와 비밀번호를 입력하세요</p>
 
-		<form action="/page/main1" class="was-validated">
+		<form action="/user/loginForm" class="was-validated" method="post">
 			<div class="form-group">
 				<label for="user_id">아이디:</label> <input type="text" class="form-control" id="user_id" placeholder="아이디" name="user_id" required>
 				<div class="valid-feedback">아이디를 입력하였습니다</div>
@@ -38,7 +45,7 @@
 				<label class="form-check-label"> <input class="form-check-input" type="checkbox" > Remember me
 				</label>
 			</div>
-			<button type="submit" class="btn btn-primary">로그인</button>
+			<button type="submit" class="btn btn-purple">로그인</button>
 		</form>
 	</div>
 

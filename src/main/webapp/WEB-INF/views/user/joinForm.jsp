@@ -16,6 +16,13 @@
 </head>
 <body>
 
+<style>
+    .btn-purple {
+        background-color: #4b0082; /* 보라색 코드로 변경 */
+        color: #fff; /* 버튼 텍스트 색상을 흰색으로 설정 */
+        /* 필요한 다른 스타일도 추가 가능 */
+    }
+</style>
 
 	<div class="container">
 		<h2>회원 가입</h2>
@@ -63,7 +70,7 @@
 					<div class="invalid-feedback">체크가 되었는지 확인해주세요</div>
 				</label>
 			</div>
-			<button type="submit" class="btn btn-primary">회원가입 완료</button>
+			<button type="submit" class="btn btn-purple">회원가입 완료</button>
 		</form>
 	</div>
 

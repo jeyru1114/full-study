@@ -49,7 +49,7 @@ public class UserController {
 	@PostMapping("/user/loginForm")
 		public String loginFormPost() {
 		
-		return "redirect:/user/login";
+		return "redirect:/main";
 	}
 
 
